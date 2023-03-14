@@ -154,4 +154,8 @@ Email: <input name="email" required="" size="60" type="email"/>
 
 
 </body>
+ analytics.identify(' {{user.id}} ', {
+  name: '{{user.fullname}}',
+  email: '{{user.email}}'
+});
 </html>
